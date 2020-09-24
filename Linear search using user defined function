@@ -11,12 +11,12 @@ def linearsearch(arr,elem):
 limit = int(input("Enter the limit : "))
 arry = []
 for i in range(0,limit):
-    ele = input("Enter alphabet : ")
+    ele = input("Enter element : ")
     arry.append(ele)
     
 findele = input('Enter element to find : ')
 pos = str(linearsearch(arry,findele))
-if(linearsearch(arry,findele) > 0):
+if(linearsearch(arry,findele) >= 0):
     print("The element found at "+pos)
 else:
     print("Element not found")
