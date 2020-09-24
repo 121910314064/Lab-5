@@ -10,7 +10,7 @@ for i in range(len(arry)):
     else:
         continue
     
-print("the  alphabet "+str(alphabet)+" found at position ",(num+1))
+print("the  alphabet "+str(alphabet)+" found at index position ",num)
 ################################################################
 
 output:
@@ -18,5 +18,5 @@ output:
 ['p', 'a', 'w', 'a', 'n']
 Enter the alphabet to find : w
 
-the  alphabet w found at position  3
+the  alphabet w found at position 2
 ###############################################################
