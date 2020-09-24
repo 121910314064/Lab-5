@@ -3,7 +3,7 @@ code :
 def linearsearch(arr,elem):
     for i in range(len(arr)):
         if(arr[i] == elem):
-            return i+1
+            return i
         else:
             continue
     return -1
