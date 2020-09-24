@@ -1,0 +1,22 @@
+code :
+#################################################################
+arry = ['p','a','w','a','n']
+print(arry)
+num = 0
+alphabet = input("Enter the alphabet to find : ")
+for i in range(len(arry)):
+    if arry[i] == alphabet:
+        num = i
+    else:
+        continue
+    
+print("the  alphabet "+str(alphabet)+" found at position ",(num+1))
+################################################################
+
+output:
+################################################################
+['p', 'a', 'w', 'a', 'n']
+Enter the alphabet to find : w
+
+the  alphabet w found at position  3
+###############################################################
